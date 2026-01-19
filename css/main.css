@@ -1,0 +1,48 @@
+/* Reset all Margins */
+* { margin: 0; padding: 0; }
+
+/* Header styles */
+header { background-color: black; 
+    padding: 30px; text-align: center; 
+    color: white; font-size: 20px; 
+    display:flex; 
+    align-items: center; 
+    position: sticky; top: 0;}
+.logo { border: 5px solid white; 
+    padding: 15px; 
+    flex: 1}
+.menu { flex: 5; 
+    text-align: right;}
+.menu a { color: white; 
+    text-decoration: none; 
+    margin-left: 30px;}
+.menu a:hover { color: yellow; }
+
+/* General styles */
+main { padding: 30px; 
+    background-color: aquamarine; 
+    height:1000px;}
+main img {width: 100%;}
+footer { background-color: black; 
+    padding: 20px; 
+    text-align: center; 
+    color: white; 
+    font-size: 15px;}
+
+/* Content styles */
+table, th, td { margin: 10px; 
+    text-align: left; 
+    border: 1px solid black; 
+    padding: 15px; 
+    font-size: 24px; 
+    background-color:antiquewhite}
+table { width: 100%;} 
+.container { display: grid; 
+    grid-template-columns: auto auto auto; 
+    background-color: dodgerblue; 
+    padding: 10px;}
+.container div { background-color: #f1f1f1; 
+    border: 1px solid black; 
+    padding: 10px; 
+    font-size: 30px; 
+    text-align: center;}
